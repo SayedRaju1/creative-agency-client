@@ -1,0 +1,13 @@
+.works-container {
+    background-color: #111430;
+}
+
+.carousal-img {
+    width: 40vw;
+}
+
+@media screen and (max-width: 600px) {
+    .carousal-img {
+        width: 90vw;
+    }
+}

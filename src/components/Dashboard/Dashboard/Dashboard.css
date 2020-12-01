@@ -1,0 +1,21 @@
+.dash-container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #f4f7fc;
+}
+
+.sidebar {}
+
+.dash-content {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.sidebar-item:hover {
+    color: #009444;
+}
+
+/* .sidebar-icon:hover {
+    fill: #009444;
+} */

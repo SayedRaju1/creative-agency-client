@@ -1,0 +1,84 @@
+.form-home-container {
+    background-color: #FBD062;
+}
+
+.email-name {
+    height: 70px;
+    width: 630px;
+    border: none;
+    outline: none;
+}
+
+.email-name::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 20px;
+}
+
+.message {
+    height: 277px;
+    width: 630px;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px 20px;
+}
+
+.message::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 3px;
+}
+
+.home-form-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.home-form-details {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.home-form-send {
+    width: 170px;
+    height: 45px;
+    background: #111430;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.copyright {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 600px) {
+    .message::placeholder {
+        font-size: 12px;
+    }
+    .email-name::placeholder {
+        font-size: 12px;
+    }
+    .message {
+        height: 140px;
+        width: 100vw;
+    }
+    .email-name {
+        height: 35px;
+        width: 100vw;
+    }
+    .home-form-send {
+        width: 100px;
+        height: 30px;
+        background: #111430;
+        font-size: 13px;
+        cursor: pointer;
+    }
+}

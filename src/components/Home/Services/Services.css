@@ -1,0 +1,15 @@
+.services-span {
+    color: #7AB259;
+}
+
+.section-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .section-header {
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,46 @@
+.logo-login {
+    width: 10%;
+}
+
+.login-form {
+    width: 570px;
+    height: 457px;
+    border-radius: 10px;
+}
+
+.google-btn {
+    border-radius: 50px;
+    cursor: pointer;
+    height: 51px;
+    width: 457px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.login-text {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+.google-logo {
+    position: relative;
+    right: -6px;
+    top: 41px;
+}
+
+@media screen and (max-width: 600px) {
+    .google-btn {
+        border-radius: 50px;
+        cursor: pointer;
+        height: 51px;
+        width: 250px;
+        font-weight: 600;
+    }
+    .login-form {
+        width: 100vw;
+        height: 400px;
+        border-radius: 10px;
+    }
+}

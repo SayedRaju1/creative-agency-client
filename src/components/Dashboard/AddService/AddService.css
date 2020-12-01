@@ -1,0 +1,42 @@
+.add-container {
+    background-color: #f4f7fc;
+    height: 100vh;
+}
+
+.description-lable {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.service-lable {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.label-input {
+    height: 40px;
+    width: 450px;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px 20px;
+}
+
+.description-input {
+    height: 121px;
+    width: 450px;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .description-input {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+}

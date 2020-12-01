@@ -1,0 +1,18 @@
+.admin-form {
+    height: 40vh;
+}
+
+.makeAdmin-container {
+    background-color: #f4f7fc;
+    height: 100vh;
+}
+
+.email-input {
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .email-input {
+        width: 100%;
+    }
+}

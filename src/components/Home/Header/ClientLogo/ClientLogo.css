@@ -1,0 +1,9 @@
+.client-logo {
+    width: 45%;
+}
+
+@media screen and (max-width: 600px) {
+    .client-logo {
+        width: 100%;
+    }
+}

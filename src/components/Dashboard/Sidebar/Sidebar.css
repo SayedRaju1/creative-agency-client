@@ -1,0 +1,16 @@
+.sidebar-item:hover {
+    color: #009444;
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar-item-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0px 20px;
+        width: 100px; */
+    }
+    .sidebar-icon {
+        display: none;
+    }
+}
